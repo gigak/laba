@@ -1,1 +1,66 @@
+<<<<<<< HEAD
 /*new css */
+=======
+body {
+    font: 100% Helvetica, Arial, sans-serif;
+    background: #ccc;
+    width: 750px;
+    margin: 2em auto;
+  }
+  a:link, a:visited, a:active {
+    color: rgb(65, 131, 196);
+    -webkit-transition: color .2s ease-out;
+  }
+  a:hover { color: rgb(35, 101, 166); }
+  h1 {
+    font: 400 1.3em "Futura", "Lucida Grande", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: rgba(0,0,0,.7) 1px 1px 2px;
+    margin: .2em 0;
+    line-height: 1.2;
+    float: left;
+    width: 75%;
+  }
+  h1 a {
+    text-decoration: none;
+    font-size: 4.5em;
+    letter-spacing: -.1em;
+    margin-right: .1em;
+    position: relative;
+    top: .1em;
+    text-transform: none;
+    -webkit-text-stroke: white 1px;
+    text-shadow:
+      #eee -1px -1px 0,
+      #eee -2px -2px 0,
+      #eee -3px -3px 0,
+      #eee -4px -4px 0,
+      rgba(65, 131, 196, .3) -5px -5px 0;
+  }
+  h1 a:hover { text-decoration: none; }
+  .man {
+    text-align: right;
+    float: right;
+    width: 25%;
+    padding-top: 5em;
+    color: gray;
+    text-transform: lowercase;
+    font-size: .9em;
+  }
+  h2, .man, .footer { text-shadow: rgba(255,255,255,.8) 0 1px 0; }
+  h2 { margin: 1em 0 0em 0; color: #444; }
+  p code, .man a, pre { font: 15px Monaco, Courier, monospace; }
+  section {
+    clear: both;
+    background: white;
+    color: #444;
+    padding: 1em;
+    margin: 12px 0 0 0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-box-shadow: rgba(0,0,0,.4) 1px 1px 4px;
+    -moz-box-shadow: rgba(0,0,0,.4) 1px 1px 4px;
+    line-height: 1.5;
+  }
+>>>>>>> origin/style
